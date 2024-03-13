@@ -1,4 +1,9 @@
+# Compiled class file
 *.class
-settings.json
-*.iml
+
+# IntelliJ IDEA specific files
 .idea/
+*.iml
+
+# VS Code specific files
+.vscode/
