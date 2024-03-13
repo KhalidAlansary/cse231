@@ -1,3 +1,5 @@
+package lab2;
+
 public class Main {
     public static void main(String[] args) {
         MyVector v1 = new MyVector(3, 4);

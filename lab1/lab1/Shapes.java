@@ -1,3 +1,5 @@
+package lab1;
+
 class Rectangle {
     private double l, w;
 

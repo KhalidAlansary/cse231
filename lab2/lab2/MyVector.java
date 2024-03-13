@@ -1,10 +1,12 @@
+package lab2;
+
 public class MyVector {
     private double x, y;
 
-    MyVector() {
+    public MyVector() {
     }
 
-    MyVector(double x, double y) {
+    public MyVector(double x, double y) {
         this.x = x;
         this.y = y;
     }
@@ -26,7 +28,7 @@ public class MyVector {
     }
 
     public double magnitude() {
-        return Math.sqrt(x*x + y*y);
+        return Math.sqrt(x * x + y * y);
     }
 
     public double angle() {
@@ -34,8 +36,8 @@ public class MyVector {
     }
 
     public void print() {
-        System.out.println("(" + x + " i + " + y + " j)");
-        System.out.println("(" + magnitude() + " [" + angle() + "])");
+        System.out.printf("(%.2f i + %.2f j)\n", x, y);
+        System.out.printf("(%.2f [%.2f])\n", magnitude(), angle());
     }
 
     public MyVector add(MyVector v) {
